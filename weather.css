@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('http://subtlepatterns.com/patterns/geometry2.png');
+    font-size: 1em;
+    font-family: Arial;
+}
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    min-width: 280px;
+    margin: auto;
+    margin-top: 10vh;
+}
+h1{
+    font-family: 'Gorditas', cursive;
+    font-size: 2.6em;
+    color: #A00;
+    text-align: center;
+    text-shadow: 4px 4px 0 #FFF;
+}
+
+/* --------------------------- Image & temp ------------------------- */
+.ppal{
+    width: 160px;
+    margin: auto;
+}
+#img{
+    float: left;
+}
+#img img{
+    height: 50px;
+    line-height: 50px;
+    display: block;
+}
+#temp{
+    float: left;
+    font-size: 2.2em;
+    line-height: 50px;
+}
+
+
+
+/* --------------------------- Tables ------------------------- */
+.info{
+    clear: both;
+    width: 40%;
+    margin: auto;
+    padding-top: 2%;
+}
+.info table{
+    display: inline-block;
+    width: 48%;
+}
+.info table td{
+    width: 22%;
+    text-align: center;
+}
+.info table tr:first-child{
+    background: black;
+    color: white;
+}
+
+
+/* --------------------------- others ------------------------- */
+#main{
+    clear: both;
+    text-align: center;
+}
+
+
+/* --------------------------- Media Queries ------------------------- */
+@media all and (max-width: 800px){
+    .wrapper{
+       margin-top: 5vh;
+    }
+    .info{
+        width: 60%;;
+        margin: auto;
+        padding-top: 2%;
+    }
+    .info table{
+        width: 48%;
+    }
+}
+@media all and (max-width: 400px){
+    .info{
+        width: 80%;;
+        margin: auto;
+        padding-top: 2%;
+    }
+}
